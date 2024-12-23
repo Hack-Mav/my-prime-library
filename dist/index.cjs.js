@@ -24,8 +24,9 @@ const PrimeRenderer = ({
   limit
 }) => {
   const primes = generatePrimes(limit);
-  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", null, "Prime Numbers up tp ", limit, ":"), /*#__PURE__*/React.createElement("ul", null, primes.map(prime => {
-  })));
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", null, "Prime Numbers up tp ", limit, ":"), /*#__PURE__*/React.createElement("ul", null, primes.map(prime => /*#__PURE__*/React.createElement("li", {
+    key: prime
+  }, prime))));
 };
 
 exports.PrimeRenderer = PrimeRenderer;

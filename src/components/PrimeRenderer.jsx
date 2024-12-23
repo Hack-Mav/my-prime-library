@@ -8,9 +8,9 @@ const PrimeRenderer = ({ limit }) => {
         <div>
             <h3>Prime Numbers up tp {limit}:</h3>
             <ul>
-                {primes.map((prime) => {
+                {primes.map((prime) => (
                     <li key={prime}>{prime}</li>
-                })}
+                ))}
             </ul>
         </div>
     );
