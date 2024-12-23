@@ -1,6 +1,6 @@
 {
   "name": "my-prime-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.cjs.js",
 "module": "dist/index.esm.js",
   "type": "module",
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "react": "^19.0.0",
